@@ -5,10 +5,10 @@
   "author": "continuous-security <contact@continuous-security.org>",
   "description": "An example project to test dependency analysis tools with different dependencies scopes specified in yarn.lock.",
   "dependencies": {
-    "jquery": "3.0.0-alpha1",
+    "jquery": "3.4.0",
     "boom": "",
-    "console-io": "2.6.3",
-    "cookie-signature": "1.0.2"
+    "console-io": "5.0.1",
+    "cookie-signature": "1.0.4"
   },
   "devDependencies": {
       "coffee-script": "~1.6.3"
