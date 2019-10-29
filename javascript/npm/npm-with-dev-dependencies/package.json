@@ -5,11 +5,17 @@
   "author": "continuous-security <contact@continuous-security.org>",
   "description": "An example project to test dependency analysis tools with different dependencies specified in npm package.json.",
   "dependencies": {
-    "jquery": "3.0.0-alpha1",
-    "express": "4.1.1",
-    "angular": "1.3.19"
+    "jquery": "3.4.0",
+    "express": "4.16.0",
+    "angular": "1.6.9",
+    "snyk": "^1.239.3"
   },
   "devDependencies": {
-      "coffee-script": "~1.6.3"
-  }
+    "coffee-script": "~1.6.3"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
