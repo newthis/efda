@@ -5,8 +5,8 @@
   "author": "continuous-security <contact@continuous-security.org>",
   "description": "An example project to test dependency analysis tools with version ranges specified in package.json.",
   "dependencies": {
-    "jquery": "^3.0.0 <3.1.1",
-    "backbone": ">=0.2.0 <0.3.3",
-    "hawk": "<2.3.1"
+    "jquery": "^3.4.0",
+    "backbone": ">=0.5.0",
+    "hawk": "5.0.0"
   }
 }
